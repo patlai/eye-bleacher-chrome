@@ -1,0 +1,14 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (emg-data-sample-VisualStudio2012.vcxproj, multiple-myos-VisualStudio2012.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  hello-myo.cpp
+c:\users\patrick\dropbox\programming\conuhacks\myo-sdk-win-0.9.0\include\myo\cxx\impl\../detail/ThrowOnError.hpp(39): warning C4297: 'myo::ThrowOnError::~ThrowOnError': function assumed not to throw an exception but does
+  c:\users\patrick\dropbox\programming\conuhacks\myo-sdk-win-0.9.0\include\myo\cxx\impl\../detail/ThrowOnError.hpp(39): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+c:\users\patrick\dropbox\programming\conuhacks\myo-sdk-win-0.9.0\include\myo\cxx\impl\../detail/ThrowOnError.hpp(45): warning C4297: 'myo::ThrowOnError::~ThrowOnError': function assumed not to throw an exception but does
+  c:\users\patrick\dropbox\programming\conuhacks\myo-sdk-win-0.9.0\include\myo\cxx\impl\../detail/ThrowOnError.hpp(45): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+hello-myo.cpp(61): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+hello-myo.cpp(137): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+hello-myo.cpp(140): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdlib.h(1266): note: see declaration of '_sleep'
+  hello-myo-VisualStudio2012.vcxproj -> C:\Users\Patrick\Dropbox\programming\conuhacks\myo-sdk-win-0.9.0\samples\x64\Debug\hello-myo.exe
+  hello-myo-VisualStudio2012.vcxproj -> C:\Users\Patrick\Dropbox\programming\conuhacks\myo-sdk-win-0.9.0\samples\x64\Debug\hello-myo.pdb (Full PDB)
+          1 file(s) copied.

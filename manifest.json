@@ -4,17 +4,18 @@
   "version": "0.1",
   "background": {
     "scripts": ["background.js"]
+    //"page": "background.html"
   },
   "content_scripts": [
     {
       "matches": [
         "<all_urls>"
       ],
-      "js": ["jquery-3.1.1.js", "content.js"]
+      "js": ["jquery-3.1.1.js", "myo.js","require.js","content.js"]
     }
   ],
   "browser_action": {
-    "default_icon": "icon.png"
+    "default_icon": "paw-icon.png"
   },
   "permissions": ["tabs", "<all_urls>"]
 }
